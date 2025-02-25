@@ -21,7 +21,9 @@ response = requests.get("http://127.0.0.1:8000/weather/?period=0")
 
 ## How to Receive Data
 The service returns data in a JSON structure. 
+
 {'period': 'Tonight', 'temperature': '43°F', 'description': 'Showers And Thunderstorms'}
+
 {'period': 'Wednesday', 'temperature': '58°F', 'description': 'Mostly Sunny'}
 
 Python example on how to receive the data: 
