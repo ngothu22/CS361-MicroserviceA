@@ -31,3 +31,7 @@ Python example on how to receive the data:
     if response.status_code == 200:
         return response.json()
 ```
+
+## UML Diagram
+![UML](https://github.com/user-attachments/assets/4fcd79f6-c63b-42d5-b5cb-6a118dd2dd95)
+
